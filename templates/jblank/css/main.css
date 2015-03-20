@@ -1,0 +1,831 @@
+html.popUpOpen {
+    overflow: hidden;
+    min-width: 1024px;
+    position: absolute
+
+
+}
+
+footer {
+    margin-top: 0
+}
+
+footer:before {
+    display: none
+}
+
+footer .wrapper {
+    top: 0;
+    position: relative
+}
+
+.pirates ::-moz-selection {
+    background: #633C1A;
+    color: #f0dab0;
+    text-shadow: none
+}
+
+.pirates ::selection {
+    background: #633C1A;
+    color: #f0dab0;
+    text-shadow: none
+}
+
+a.hlink {
+    position: absolute;
+    top: -30px;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    display: block
+}
+
+.pirates {
+    text-rendering: auto !important
+}
+
+.pirates .h1.first {
+    color: #3F1B0B;
+    font-size: 30px;
+    background: 0 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 0 80px;
+    height: 50px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.pirates .h1.first span {
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 650px;
+    display: inline-block
+}
+
+.pirates .h1.first span:after, .pirates .h1.first span:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 48px;
+    width: 250px
+}
+
+.pirates .h1.first span:after {
+    right: -250px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/headers/right_main.png) center no-repeat
+}
+
+.pirates .h1.first span:before {
+    left: -250px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/headers/left_main.png) center no-repeat
+}
+
+.pirates .h1.first.none:after, .pirates .h1.first.none:before {
+    display: none
+}
+
+.pirates .h1.first a {
+    color: #3f1b0b;
+    text-decoration: none
+}
+
+.pirates .news ::-moz-selection, .pirates .clans ::-moz-selection, .pirates .ranks ::-moz-selection {
+    background: #A8672B;
+    color: #f0dab0;
+    text-shadow: none
+}
+
+.pirates .news ::selection, .pirates .clans ::selection, .pirates .ranks ::selection {
+    background: #A8672B;
+    color: #f0dab0;
+    text-shadow: none
+}
+
+.pirates.bg-footer {
+    padding-bottom: 15px
+}
+
+.pirates.bg {
+
+    min-width: 980px
+}
+
+
+
+.no-ma-dollar .pirates.bg {
+    margin-top: 30px
+}
+
+.pirates.bg.game {
+    background: #031a2a;
+    min-width: 1024px
+}
+
+.pirates.wrapper {
+    width: 100%;
+    font-family: AG_Benguiat, Calibri, Helvetica, Geneva
+}
+
+.pirates .flash-conteiner {
+    height: 567px;
+    margin: 0 auto
+}
+
+.pirates .flash-conteiner .hAnimation {
+    visibility: hidden
+}
+
+.pirates .flash-conteiner .hAnimation.on {
+    visibility: visible
+}
+
+.pirates .flash-conteiner .menuBtns {
+    position: relative;
+    top: 371px;
+    left: -1px;
+    margin-left: 0;
+    z-index: 999
+}
+
+.pirates .flash-conteiner .menuBtns object {
+    width: 787px;
+    height: 179px
+}
+
+.pirates .flash-conteiner .shipFlags {
+    position: relative;
+    top: -189px;
+    left: 0;
+    margin-left: -353px;
+    z-index: 999
+}
+
+.pirates .flash-conteiner .shipFlags object {
+    height: 303px;
+    width: 225px
+}
+
+.pirates .flash-conteiner .gunLeft, .pirates .flash-conteiner .gunRight {
+    position: absolute;
+    left: 50%;
+    z-index: 50
+}
+
+.pirates .flash-conteiner .gunLeft object, .pirates .flash-conteiner .gunRight object {
+    height: 297px;
+    width: 300px
+}
+
+.pirates .flash-conteiner .gunRight {
+    top: 147px;
+    margin-left: 143px
+}
+
+.pirates .flash-conteiner .gunLeft {
+    top: 138px;
+    margin-left: -468px
+}
+
+.pirates .flash-conteiner .girl {
+    position: absolute;
+    left: 50%;
+    z-index: 50;
+    top: 10px;
+    margin-left: -100px
+}
+
+.pirates .flash-conteiner .girl object {
+    height: 450px;
+    width: 220px
+}
+
+.pirates .flash {
+    zoom: 1;
+    position: relative;
+    display: none;
+    left: 0;
+    margin: 0 auto;
+    z-index: 53
+}
+
+.pirates .flash object {
+    position: relative;
+    display: block;
+    left: -1px;
+    top: 0;
+    width: 1025px;
+    height: 572px;
+    margin: 0 auto
+}
+
+.pirates object {
+    position: relative;
+    display: block;
+    margin: 0 auto
+}
+
+.pirates .without.flash {
+    height: 572px
+}
+
+.pirates .bg-menu {
+    height: 232px;
+    width: 892px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -243px;
+    left: -1px;
+    top: 1px;
+    z-index: 51
+}
+
+.pirates .mainlink {
+    height: 0;
+    width: 892px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    left: -1px;
+    top: 0;
+    z-index: 1000
+}
+
+.pirates .mainlink .mainlink-bg {
+    display: block;
+    position: absolute;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/flag_logo_empty.png) top center no-repeat;
+    top: -561px;
+    left: -15px;
+    height: 350px;
+    width: 330px
+}
+
+.pirates .mainlink .mainlink-bg a {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 170px;
+    left: 15px;
+    border-radius: 10px
+}
+
+.pirates .mainlink .text {
+    margin: -12px 50px 10px 41px;
+    height: 100px;
+    width: 240px;
+    text-align: center;
+    font-size: 16px;
+    cursor: default;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/text_flag_logo_11.png) top center no-repeat
+}
+
+.pirates .menu {
+    height: 232px;
+    width: 892px;
+    opacity: .5;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -232px;
+    left: -1px;
+    top: 0;
+    z-index: 52
+}
+
+.pirates .menu a {
+    display: block;
+    height: 60px;
+    width: 134px;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    border-radius: 10px
+}
+
+.pirates .menu a:hover {
+    background: rgba(255, 255, 255, .2)
+}
+
+.pirates .menu a.link-about {
+    top: 165px;
+    left: 53px;
+    height: 60px;
+    width: 134px
+}
+
+.pirates .menu a.link-news {
+    top: 165px;
+    left: 199px
+}
+
+.pirates .menu a.link-play {
+    top: 105px;
+    left: 338px;
+    height: 89px;
+    width: 219px;
+    border-radius: 50px
+}
+
+.pirates .menu a.link-lib {
+    top: 165px;
+    left: 561px;
+    width: 153px
+}
+
+.pirates .menu a.link-forum {
+    top: 165px;
+    left: 728px;
+    width: 111px
+}
+
+.pirates .mainTitleText {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    display: block;
+    position: relative;
+    color: #fbaa2d;
+    text-align: center;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/ribbon.png) center no-repeat;
+    height: 38px;
+    top: -10px
+}
+
+.pirates .mainTitleText .title {
+    font: 16px/28px AG_Benguiat, Calibri, Helvetica, Geneva;
+    margin: 0;
+    padding: 0
+}
+
+.pirates .mainTitleText a {
+    color: #fbaa2d;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    text-decoration: none
+}
+
+.pirates .mainTitleText a:hover {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: #f0dab0
+}
+
+.pirates .bg-wood {
+    height: auto;
+    width: 871px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/back_page_center_wood.jpg) 0 0 repeat-y;
+
+    position: relative;
+    z-index: 60;
+    margin: 0 auto;
+}
+
+.pirates .slider {
+    height: auto;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/back_main_slider.png) center no-repeat;
+    top: -7px;
+    position: relative
+}
+
+.pirates .slider .img_slider_wrap img {
+    width: 160px;
+    height: 100px;
+    margin: 30px 2px;
+    border: 5px double #512d17;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.pirates .slider .img_slider_wrap img:hover {
+    border: 5px double #824625
+}
+
+.img_slider_wrap {
+    margin: 0 30px;
+    height: 170px
+}
+
+.img_slider_wrap ul {
+    list-style: none;
+    margin: 0
+}
+
+.img_slider_wrap li {
+    float: left;
+    width: 174px
+}
+
+.pirates .pl-content, .pirates .pl-page {
+    position: relative
+}
+
+.pirates .pl-page {
+    margin-bottom: -82px
+}
+
+.pirates .pl-paper.begin {
+    height: 24px;
+    position: relative;
+    z-index: 100;
+    top: 0;
+    width: 871px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/paper_tile_header.png) top center no-repeat
+}
+
+.pirates .pl-paper.end {
+    height: 66px;
+    position: relative;
+    z-index: 101;
+    top: -10px;
+    width: 871px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/paper_tile_footer.png) bottom center no-repeat;
+    margin: 0 auto
+}
+
+.pirates .bg-wood-end {
+    height: 121px;
+    width: 871px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/back_page_down_wood.png) center no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -436px;
+    z-index: 100
+}
+
+.pirates .pl-content {
+    z-index: 101;
+    min-height: 900px;
+    padding: 0 50px 0 51px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/paper_tile_content.png) top center repeat-y
+}
+
+.pirates .pl-content.selector_true {
+    margin-top: -30px;
+    padding: 40px 50px 0 51px
+}
+
+.pirates .page_selector {
+    display: block;
+    position: relative;
+    z-index: 110;
+    height: 70px;
+    margin-left: 5px;
+    padding-top: 15px;
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/page_select/flag_anim_bg.png) 0 15px no-repeat
+}
+
+.pirates .page_selector .flags {
+    position: absolute;
+    z-index: 111;
+    display: block;
+    padding: 0 172px;
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    -o-user-select: auto;
+    user-select: auto
+}
+
+.pirates .page_selector .flags.btn_3 {
+    padding: 0 220px
+}
+
+.pirates .page_selector .flags.btn_5 {
+    padding: 0 105px
+}
+
+.pirates .page_selector .flag {
+    background: transparent url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/page_select/flag_anim_sprite.png) 0 0 no-repeat;
+    position: relative;
+    z-index: 111;
+    top: -10px;
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ddc185;
+    text-shadow: 0 1px 3px #000
+}
+
+.pirates .page_selector .flag.active {
+    cursor: default;
+    background: transparent url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/page_select/flag_anim_sprite.png) -960px 0 no-repeat
+}
+
+.pirates .page_selector .flag.active .text {
+    top: 9px
+}
+
+.pirates .page_selector .flag .trigger {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    top: 19px;
+    left: 0
+}
+
+.pirates .page_selector .flag .text {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    position: relative
+}
+
+.cont_block {
+
+    z-index: 1009;
+}
+
+.content {
+
+
+    color: #3f1b0b;
+
+    padding: 0 25px;
+    font-family: AG_Benguiat,Calibri,Helvetica,Geneva;
+    font-size: 15px;
+    text-align: justify;
+    text-shadow: 0 0 1px rgba(63,27,11,.7);
+}
+
+.cont_bg {
+    width: 980px;
+    height: 310px;
+    background: url(../img/cont_bg.png) top center no-repeat;
+    margin: 0 auto;
+}
+
+.hr_bg {
+    background: url(../img/hr_bg.png) top center repeat-x;
+    width: 100%;
+    height: 50px;
+}
+
+.title {
+    font-size: 48px;
+    padding: 10px 0;
+    text-align: center;
+
+    font-family: 'Ruslan Display', cursive;
+    opacity: 0.8;
+}
+
+.title2 {
+    font-size: 48px;
+    padding: 0;
+    text-align: center;
+
+    font-family: 'Ruslan Display', cursive;
+    opacity: 0.8;
+}
+
+.pre {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.pirates .h1 {
+    background: url(//plarium.hs.llnwd.net/v1/sites/pirates/ru/portal/img/about_page_head.png) center no-repeat;
+    color: #f0dab0;
+    font-size: 16px;
+    height: 50px;
+    line-height: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tabs {
+    text-align: center;
+}
+
+.tabs ul {
+    display: inline-block;
+    margin: 0 0 10px 0;
+}
+
+.tabs .item {
+    text-align: left;
+}
+
+.tabs ul li {
+    display: inline-block;
+    margin: 5px 0 0 0;
+}
+
+.tabs ul li a {
+    padding: 10px;
+    background: #3f1b0b;
+    color: #f0dab0;
+    display: inline-block;
+}
+
+.tabs ul li a:hover {
+    color: #ffffff;
+}
+
+.akcia {
+    width:829px;
+    margin: 0 auto;
+}
+
+.title_akcia {
+    font-family: 'Ruslan Display', cursive;
+    font-size: 36px;
+    color: #850000;
+    margin-left: 350px;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.akcia_txt {
+    font-family: 'Ruslan Display', cursive;
+    color: #0f6396;
+    font-size: 26px;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 20px 40px 0 380px;
+}
+
+.akcia_txt2 {
+    font-family: 'Ruslan Display', cursive;
+    color: #3F2E27;
+    font-size: 22px;
+    padding: 0 40px;
+    text-align: center;
+    margin: 0 40px 20px 380px;
+}
+
+.map {
+    width: 760px;
+    height: 350px;
+    margin: 60px auto 0 auto;
+    opacity: 0.6;
+}
+
+.map:hover, .map:focus, .map:active {
+    opacity: 1;
+}
+
+.contact {
+    font-family: 'Ruslan Display', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact .title {
+    font-size: 36px;
+}
+
+.contact .contact_txt {
+    font-family: AG_Benguiat,Calibri,Helvetica,Geneva;
+    font-size: 20px;
+}
+
+.phone {
+    font-family: 'Ruslan Display', cursive;
+    color: #ffffff;
+    text-align: center;
+}
+
+.phone .title {
+    font-size: 46px;
+}
+
+.phone .phone_txt {
+    font-family: AG_Benguiat,Calibri,Helvetica,Geneva;
+    font-size: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.group .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.group .name span {
+    font-style: italic;
+    font-size: 11px;
+}
+
+.group small {
+    opacity: 0.8;
+    width: 280px;
+    display: block;
+}
+
+.group .price {
+    display: inline;
+    float: right;
+
+    line-height: 40px;
+    font-size: 30px;
+}
+
+ul.items {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul.items li {
+    width: 50%;
+    float: left;
+    margin: 0 0 15px 0;
+}
+
+ul.items li:nth-child(odd) .group .price {
+    margin: 0 15px 0 0;
+
+}
+
+ul.items li:nth-child(even) .group .name, ul.items li:nth-child(even) .group small {
+    margin: 0 0 0 15px;
+}
+
+.tit {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+ul.podmenu li a {
+    padding: 10px;
+    background: #f0dab0;
+    color: #3f1b0b;
+    display: inline-block;
+}
+
+ul.podmenu li a:hover {
+    color: #676115;
+}
+
+ul.onecol li {
+    width: 100%;
+    float: left;
+    margin: 0 0 15px 0;
+}
+
+ul.onecol li:nth-child(odd) .group .price {
+    margin: 0 0px 0 0;
+
+}
+
+ul.items li:nth-child(even) .group .name, ul.items li:nth-child(even) .group small {
+    margin: 0 0 0 0;
+}
+
+ul.onecol li:nth-child(even) .group .name, ul.items li:nth-child(even) .group small {
+    margin: 0 0 0 0;
+}
+
+.mjs-object-htmlText {
+    width: 250px; height: 25px; top: 10px; left: 363px; z-index: 20002;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.pos1span {
+    font-family:'Open Sans';font-size:11px;color:#8f8e8e;
+}
+
+.colorwhite {
+    color: #ffffff;
+}
+
+.mjs-object-htmlText p {
+    font-size: 100%;
+}
+
+.custom {
+    font-size: 100%;
+}
+
+.size11 {
+    font-size: 11px;
+}
+
+.size11 .custom p {
+    font-size: 11px;
+}
+
+.pos2 .custom p {
+    font-size:13px;color:#e2c78e; text-align: center;
+}
